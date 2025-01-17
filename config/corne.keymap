@@ -53,8 +53,8 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &trans  &trans  &trans        &kp LC(TAB)      &trans    &kp HOME  &trans            &kp UP_ARROW    &trans           &trans  &kp LG(LC(RIGHT))
-&trans  &trans  &trans  &trans        &kp LS(LC(TAB))  &trans    &trans    &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &kp LC(LG(LEFT_ARROW))
+&trans  &trans  &trans  &trans        &kp LC(LS(TAB))  &trans    &kp HOME  &trans            &kp UP_ARROW    &trans           &trans  &trans
+&trans  &trans  &trans  &trans        &kp LC(TAB)      &trans    &trans    &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
 &trans  &trans  &trans  &trans        &trans           &trans    &kp END   &trans            &trans          &trans           &trans  &trans
                         &kp LEFT_ALT  &to 0            &trans    &kp TAB   &kp LEFT_CONTROL  &kp RIGHT_ALT
             >;
