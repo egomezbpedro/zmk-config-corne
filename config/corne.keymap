@@ -53,7 +53,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &trans  &trans  &trans    &trans  &trans    &kp HOME  &trans            &kp UP_ARROW    &trans           &trans  &trans
+&trans  &trans  &trans  &trans    &trans  &trans    &kp HOME  &trans            &kp UP_ARROW    &trans           &trans  &kp DELETE
 &trans  &trans  &trans  &trans    &trans  &trans    &trans    &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
 &trans  &trans  &trans  &trans    &trans  &trans    &kp END   &trans            &trans          &trans           &trans  &trans
                         &kp LGUI  &to 0   &trans    &trans    &kp LEFT_CONTROL  &kp LEFT_ALT
