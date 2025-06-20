@@ -53,10 +53,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans  &trans    &kp LC(LEFT_ARROW)  &kp LC(DOWN)      &kp LC(UP_ARROW)  &kp LC(RIGHT)    &kp LG(LC(LEFT_ARROW))  &kp LG(LC(RIGHT))
-&trans  &trans     &trans     &trans     &trans  &trans    &kp LEFT_ARROW      &kp DOWN_ARROW    &kp UP_ARROW      &kp RIGHT_ARROW  &trans                  &kp HOME
-&trans  &trans     &trans     &trans     &trans  &trans    &trans              &trans            &trans            &trans           &trans                  &kp END
-                              &kp LGUI   &to 0   &trans    &trans              &kp LEFT_CONTROL  &kp LEFT_ALT
+&trans  &trans  &trans  &trans    &kp LC(LG(LEFT_ARROW))  &kp LC(LG(RIGHT))    &kp LC(LEFT_ARROW)  &kp LC(DOWN)      &kp LC(UP_ARROW)  &kp LC(RIGHT)    &trans  &trans
+&trans  &trans  &trans  &trans    &trans                  &trans               &kp LEFT_ARROW      &kp DOWN_ARROW    &kp UP_ARROW      &kp RIGHT_ARROW  &trans  &kp HOME
+&trans  &trans  &trans  &trans    &trans                  &trans               &trans              &trans            &trans            &trans           &trans  &kp END
+                        &kp LGUI  &to 0                   &trans               &trans              &kp LEFT_CONTROL  &kp LEFT_ALT
             >;
         };
 
