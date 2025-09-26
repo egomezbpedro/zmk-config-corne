@@ -15,7 +15,7 @@
 &led_strip { chain-length = <27>; };
 
 &mmv {
-    acceleration-exponent = <6>;
+    acceleration-exponent = <8>;
     time-to-max-speed-ms = <100>;
 };
 
@@ -125,9 +125,9 @@
             //                        |  -  | LYR   |  -   |   |  -  |  -  |  -   |
 
             bindings = <
-&kp TAB    &kp LG(TAB)  &kp LA(F4)  &kp LG(E)   &kp LG(R)   &kp LG(T)    &kp PAGE_UP    &kp HOME      &kp UP_ARROW   &kp END        &kp PRINTSCREEN  &kp DELETE
-&kp CAPS   &kp LG(N1)   &kp LG(N2)  &kp LG(N3)  &kp LG(N4)  &kp LG(G)    &kp PAGE_DOWN  &kp LEFT      &kp DOWN       &kp RIGHT      &kp LG(UP)       &kp LG(ENTER)
-&kp LSHFT  &kp LG(Z)    &kp LG(X)   &kp LG(C)   &kp LG(V)   &kp LG(L)    &kp LG(LEFT)   &kp LC(LEFT)  &kp LC(RIGHT)  &kp LG(RIGHT)  &kp LA(LEFT)     &kp LA(RIGHT)
+&kp TAB    &kp LG(TAB)  &kp LA(F4)  &kp LG(E)   &kp LG(R)   &kp LG(T)    &kp PAGE_UP    &kp HOME      &kp UP_ARROW   &kp END        &kp LG(LS(NUMBER_4))  &kp DELETE
+&kp CAPS   &kp LG(N1)   &kp LG(N2)  &kp LG(N3)  &kp LG(N4)  &kp LG(G)    &kp PAGE_DOWN  &kp LEFT      &kp DOWN       &kp RIGHT      &kp LG(UP)            &kp LG(ENTER)
+&kp LSHFT  &kp LG(Z)    &kp LG(X)   &kp LG(C)   &kp LG(V)   &kp LG(L)    &kp LG(LEFT)   &kp LC(LEFT)  &kp LC(RIGHT)  &kp LG(RIGHT)  &kp LA(LEFT)          &kp LA(RIGHT)
                                     &trans      &to 0       &trans       &trans         &none         &trans
             >;
         };
