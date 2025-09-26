@@ -14,6 +14,11 @@
 
 &led_strip { chain-length = <27>; };
 
+&mmv {
+    acceleration-exponent = <3>;
+    time-to-max-speed-ms = <100>;
+};
+
 / {
     behaviors {
         // Balanced homerow mods
@@ -150,10 +155,10 @@
             //                    |  -  | LYR |  -  |   |  -  |  -  |  -  |
 
             bindings = <
-&trans  &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4    &kp C_MUTE       &kp C_VOL_DN      &kp C_VOL_UP      &rgb_ug RGB_TOG  &sys_reset         &bootloader
-&trans  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &rgb_ug RGB_SAI &kp C_PREV       &kp C_NEXT        &kp C_PP          &rgb_ug RGB_SAD  &rgb_ug RGB_EFF    &rgb_ug RGB_EFR
-&trans  &trans           &trans           &trans           &trans           &bt BT_CLR      &trans           &trans            &trans            &trans           &ext_power EP_TOG  &ext_power EP_OFF
-                                          &trans           &to 0            &trans          &trans           &trans            &trans
+&trans  &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &rgb_ug RGB_TOG  &sys_reset         &bootloader
+&trans  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &rgb_ug RGB_SAI    &kp C_PREV  &kp C_NEXT    &kp C_PP      &rgb_ug RGB_SAD  &rgb_ug RGB_EFF    &rgb_ug RGB_EFR
+&trans  &trans           &trans           &trans           &trans           &bt BT_CLR         &trans      &trans        &trans        &trans           &ext_power EP_TOG  &ext_power EP_OFF
+                                          &trans           &to 0            &trans             &trans      &trans        &trans
             >;
         };
     };
