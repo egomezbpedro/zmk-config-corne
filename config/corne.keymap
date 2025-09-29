@@ -27,21 +27,13 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <300>;
             quick-tap-ms = <175>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
 
         // Layer cycling tap dance: 0→1→2→3→4→0
-
-        layer_td: layer_tap_dance {
-            compatible = "zmk,behavior-tap-dance";
-            label = "LAYER_TAP_DANCE";
-            #binding-cells = <0>;
-            tapping-term-ms = <300>;
-            bindings = <&to 1>, <&to 2>, <&to 3>, <&to 4>, <&to 0>;
-        };
     };
 
     // Configure faster mouse movement - no delay, quick acceleration
