@@ -117,10 +117,10 @@
             //                        |  -  | LYR   |  -   |   |  -  |  -  |  -   |
 
             bindings = <
-&kp TAB    &kp LG(TAB)  &kp LA(F4)  &kp LG(E)   &kp LG(R)   &kp LG(T)    &kp PAGE_UP    &kp HOME      &kp UP_ARROW   &kp END        &kp LG(LS(NUMBER_4))  &kp DELETE
-&kp CAPS   &kp LG(N1)   &kp LG(N2)  &kp LG(N3)  &kp LG(N4)  &kp LG(G)    &kp PAGE_DOWN  &kp LEFT      &kp DOWN       &kp RIGHT      &kp LG(UP)            &kp LG(ENTER)
-&kp LSHFT  &kp LG(Z)    &kp LG(X)   &kp LG(C)   &kp LG(V)   &kp LG(L)    &kp LG(LEFT)   &kp LC(LEFT)  &kp LC(RIGHT)  &kp LG(RIGHT)  &kp LA(LEFT)          &kp LA(RIGHT)
-                                    &trans      &to 0       &trans       &trans         &none         &trans
+&kp TAB      &kp LG(TAB)    &kp LA(F4)  &kp LG(E)  &kp LG(R)  &kp LG(T)    &kp LC(LEFT)   &kp LA(LEFT)  &kp LC(LA(RIGHT))  &kp LC(RIGHT)  &kp LC(UP_ARROW)  &kp BACKSPACE
+&kp LG(TAB)  &kp LG(LS(A))  &kp LG(Y)   &kp LG(D)  &kp LG(F)  &kp LG(G)    &kp PAGE_UP    &kp LEFT      &kp DOWN           &kp UP_ARROW   &kp RIGHT         &kp LG(ENTER)
+&kp LSHFT    &kp LG(Z)      &kp LG(X)   &kp LG(C)  &kp LG(V)  &kp LG(L)    &kp PAGE_DOWN  &kp LG(LEFT)  &kp LC(UP_ARROW)   &kp LG(RIGHT)  &kp F11           &kp LG(SPACE)
+                                        &kp LCTRL  &to 0      &trans       &trans         &kp LEFT_GUI  &kp LEFT_ALT
             >;
         };
 
