@@ -109,10 +109,10 @@
             //                        |  -  | LYR   |  -   |   |  -  |  -  |  -   |
 
             bindings = <
-&kp TAB    &kp LG(TAB)  &kp LA(F4)  &kp LG(E)   &kp LG(R)   &kp LG(T)    &kp HOME  &kp LC(LEFT)    &kp PAGE_DOWN   &kp PAGE_UP   &kp LC(RIGHT)  &kp DELETE
-&kp CAPS   &kp LG(N1)   &kp LG(N2)  &kp LG(N3)  &kp LG(N4)  &kp LG(G)    &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT      &trans
-&kp LSHFT  &trans       &trans      &trans      &trans      &trans       &kp END   &trans          &trans          &trans        &trans         &to 3
-                                    &trans      &to 0       &trans       &trans    &none           &trans
+&kp TAB    &kp LG(TAB)  &kp LA(F4)  &kp LG(E)     &kp LG(R)         &kp LG(T)       &kp HOME  &kp LC(LEFT)    &kp PAGE_DOWN   &kp PAGE_UP   &kp LC(RIGHT)  &kp DELETE
+&kp CAPS   &kp LG(N1)   &kp LG(N2)  &kp LG(N3)    &kp LG(N4)        &kp LG(G)       &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT      &trans
+&kp LSHFT  &trans       &trans      &trans        &trans            &trans          &kp END   &trans          &trans          &trans        &trans         &to 3
+                                    &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_GUI    &trans    &none           &trans
             >;
         };
 
